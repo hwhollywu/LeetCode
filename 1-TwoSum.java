@@ -1,4 +1,5 @@
 // 1. Two Sum
+
 // Time O(n^2), Space O(1)
 
 class Solution {
@@ -61,3 +62,31 @@ class Solution {
         return null;
     }
 }
+
+// 167. Two Sum II - Input array is sorted
+// instead of Hashmap, use two pointers point to start & end of the array
+// Runtime: -> 1ms
+
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        int left = 0;
+        int right = numbers.length - 1;
+        int[] result = new int[2];
+        if (numbers == null || numbers.length < 2) return result;
+        while (left < right){
+            int sum = numbers[left] + numbers[right];
+            if (sum == target){
+                result[0] = left + 1;
+                result[1] = right + 1;
+                return result;
+            }else if (sum > target){
+                right--;
+            }else {
+                left ++;
+            }
+        }
+        return result; 
+    }
+}
+
+
