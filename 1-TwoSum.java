@@ -19,6 +19,34 @@ class Solution {
 
 
 // Time O(n), Space O(n)
+// traversal hash map twice 
+
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        // map stores key (target minus n) & value (index of number n) 
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int i = 0; i < numbers.length; i++){
+            map.put(target - numbers[i], i + 1);
+        }
+        for (int i = 0; i < numbers.length; i++){
+            if (map.get(numbers[i]) != null){
+                // find the result
+                int result1 = (i + 1);
+                int result2 = map.get(numbers[i]);
+                if (result1 > result2){
+                    return new int[] {result2, result1};
+                }else{
+                    return new int[] {result1, result2};
+                }
+            }
+        }
+        return null;
+    }
+        
+}
+
+// Time O(n), Space O(n)
+// Traversal once
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -33,4 +61,3 @@ class Solution {
         return null;
     }
 }
-
