@@ -18,7 +18,8 @@
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)| use greedy algorithm| 
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |use greedy algorithm| 
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | use greedy algorithm| 
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | use greedy algorithm|  
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | use greedy algorithm| 
+| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/) | use greedy algorithm| 
 
 
 
