@@ -1,6 +1,7 @@
 // 69. Sqrt(x)
+// https://leetcode.com/problems/sqrtx/description/
 
-// 瞎写的 => Time Limit Exceeded 
+// Brute Force w=> Time Limit Exceeded 
 class Solution {
     public int mySqrt(int x) {
         int result = 0;
@@ -29,6 +30,7 @@ class Solution {
         // 0-1 already included in the base case, therefore left starts with 1
         int left = 1, right = x-1;
         while (left <= right){
+            // because adding left + right might overflow
             int mid = left + (right - left) / 2;
             int sqrt = x / mid;
             if (sqrt == mid) {
