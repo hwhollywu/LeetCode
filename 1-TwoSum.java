@@ -44,7 +44,6 @@ class Solution {
         }
         return null;
     }
-        
 }
 
 // Time O(n), Space O(n)

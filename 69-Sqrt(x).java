@@ -1,7 +1,7 @@
 // 69. Sqrt(x)
 // https://leetcode.com/problems/sqrtx/description/
 
-// Brute Force w=> Time Limit Exceeded 
+// Brute Force => Time Limit Exceeded 
 class Solution {
     public int mySqrt(int x) {
         int result = 0;
