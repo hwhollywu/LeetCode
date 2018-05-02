@@ -3,7 +3,7 @@
 
 [Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-16/788
+19/788
 
 | #  | Title/Link  | Description  |
 | -- |:---------|:---------| 
@@ -23,7 +23,9 @@
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)| use two pointers|
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | use two pointers |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)| use two pointers and greedy algorithm|
-
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | use two pointers |
+| 141 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | use two pointers |
+| 524 |[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/) | use two pointers| 
 
 
 
