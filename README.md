@@ -3,7 +3,7 @@
 
 [Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-19/788
+20/788
 
 | #  | Title/Link  | Description  |
 | -- |:---------|:---------| 
@@ -26,8 +26,11 @@
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | use two pointers |
 | 141 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | use two pointers |
 | 524 |[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/) | use two pointers| 
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)| sorting algorithms |
 
 
+
+* [Big O Cheatsheet](http://bigocheatsheet.com/)
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
