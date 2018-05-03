@@ -19,6 +19,13 @@ class Solution {
 // 归并排序 merge sort 
 // Time O(nlogn) Space O(n)
 
+class Solution {
+    public int mergeSort(int[] nums) {
+        Arrays.sort(nums);
+        return nums[nums.length - k];
+    }
+}
+
 // 堆排序 heap sort
 // space O(1)
 
