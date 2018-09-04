@@ -59,5 +59,31 @@
         System.out.println(result);
     }
 
+// 2D Array
+// https://www.hackerrank.com/challenges/2d-array/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
+/*
+ 1. (0,0)(1,0)(2,0) i=x, j=y in 2D array
+         (1,1)
+    (0,2)(1,2)(2,2)
+ 2. optimize  (not passing test 3 & 7) not initialize sum to zero, because negative values would not overwrite it.
+    the sum might be <= 0.  
+*/
+
+     static int hourglassSum(int[][] arr) {
+        int x = arr[0].length;
+        int y = arr[1].length;
+        int sum = Integer.MIN_VALUE;
+        for (int i=0; i < x-2; i++){
+            for (int j=0; j < y-2; j++){
+                int temp = arr[i][j]+arr[i][j+1]+arr[i][j+2]+arr[i+1][j+1]+arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2];
+                if (temp > sum){
+                    sum = temp;
+                }
+            }
+        }
+        return sum;
+    }
+
+
 
 
