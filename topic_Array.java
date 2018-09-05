@@ -85,5 +85,33 @@
     }
 
 
+// Minimum Swaps 2
+// https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays&h_r=next-challenge&h_v=zen
+/*
+1. 思路：  4 3 1 2 -> 2 3 1 4 从i=0~n开始swap，i=0时,如果arr[0] != 1, swap with 4th (arr[0]所在的数)
+2. 改变/坑： 4个数不一定是 1 2 3 4， 有可能是 1 2 3 5， 因为不需要检测最后一个 -> i< n-1
+*/
+
+    // Complete the minimumSwaps function below.
+    static int minimumSwaps(int[] arr) {
+        
+        int n = arr.length;
+        int swaps = 0;
+        for (int i = 0; i< n-1; i++){
+            if (arr[i] != i+1){
+                // swap current ith position with its number position
+                int position = arr[i]-1;
+                System.out.println(i +" : " +arr[i] +" : " + position);
+                int temp = arr[i];
+                arr[i] = arr[position];
+                arr[position] = temp;
+                swaps++;
+                i -= 1;
+            }
+        }
+        return swaps;
+
+    }
+
 
 
