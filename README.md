@@ -28,6 +28,7 @@
 | 524 |[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/) | use two pointers| 
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)| sorting algorithms |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)| sorting |
+| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Arrays and Strings, Stack|
 
 
 
@@ -39,7 +40,6 @@ builds up a solution piece by piece, always choosing the next piece that offers 
 1. base case 
 2. sort / break up problems by steps 
 3. ways to optimize the solution
-
 
 
 
