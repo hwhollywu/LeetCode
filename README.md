@@ -29,6 +29,7 @@
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)| sorting algorithms |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)| sorting |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Arrays and Strings, Stack|
+| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Arrays, two pointers|
 
 
 
