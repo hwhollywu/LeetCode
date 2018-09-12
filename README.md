@@ -34,6 +34,7 @@
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Arrays| 
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | Arrays | 
 | 136/137/260 | [Single Number](https://leetcode.com/problems/single-number/description/) | Arrays |
+| 349/350 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | Arrays | 
 
 
 
