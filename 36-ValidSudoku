@@ -1,0 +1,28 @@
+// 36. Valid Sudoku
+// https://leetcode.com/problems/valid-sudoku/description/
+
+// beet 40%
+
+class Solution {
+    public boolean isValidSudoku(char[][] board) {
+        
+        // set stores column, row and sub-boxes
+        // notation: 1 in row 1; 1 in col 1; 1 in box 0,0
+        HashSet<String> set = new HashSet<String>();
+        
+        for (int i = 0 ; i < board.length; i++){     
+            for (int j = 0; j < board[1].length; j++){
+                int n = board[i][j];
+                if (n != '.'){
+                    // check row
+                    if (!set.add(n + " in row "+i)) return false;
+                    // check column
+                    if (!set.add(n + " in col "+j)) return false;
+                    // check sub-box
+                    if (!set.add(n + " in box "+(i/3) + ","+(j/3))) return false;
+                }
+            }
+        }
+        return true;  
+    }
+}

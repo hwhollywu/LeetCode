@@ -37,7 +37,7 @@
 | 349/350 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | Arrays | 
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | Arrays | 
 | 282 | [Move Zeros](https://leetcode.com/problems/move-zeroes/description/) | Arrays |
-
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | 2D Array |
 
 
 
