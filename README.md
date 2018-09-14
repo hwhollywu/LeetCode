@@ -3,7 +3,7 @@
 
 [Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-20/788
+35/897
 
 | #  | Title/Link  | Description  |
 | -- |:---------|:---------| 
@@ -29,6 +29,7 @@
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)| sorting algorithms |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)| sorting |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Arrays and Strings, Stack|
+| --  |---------|Arrays| 
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Arrays, two pointers|
 | 121/122 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Arrays|
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Arrays| 
@@ -38,6 +39,9 @@
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | Arrays | 
 | 282 | [Move Zeros](https://leetcode.com/problems/move-zeroes/description/) | Arrays |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | 2D Array |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2D Array | 
+
+
 
 
 
