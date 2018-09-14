@@ -3,7 +3,7 @@
 
 [Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-35/897
+37/897
 
 | #  | Title/Link  | Description  |
 | -- |:---------|:---------| 
@@ -39,7 +39,7 @@
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | Arrays | 
 | 282 | [Move Zeros](https://leetcode.com/problems/move-zeroes/description/) | Arrays |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | 2D Array |
-| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2D Array | 
+| 48/396/788 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2D Array | 
 
 
 
