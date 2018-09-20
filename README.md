@@ -40,7 +40,8 @@
 | 282 | [Move Zeros](https://leetcode.com/problems/move-zeroes/description/) | Arrays |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | 2D Array |
 | 48/396/788 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2D Array | 
-
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | String |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)| String |
 
 
 
