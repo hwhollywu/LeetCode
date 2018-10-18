@@ -45,6 +45,7 @@
 | 160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | Linked List|
 | 206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | Linked List|
 | 19 | [Remove the n-th node from the end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Linked List| 
+| 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Linked List|
 
 
 
