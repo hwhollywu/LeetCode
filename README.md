@@ -42,6 +42,9 @@
 | 48/396/788 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2D Array | 
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | String |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)| String |
+| 160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | Linked List|
+| 206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | Linked List|
+
 
 
 
