@@ -46,6 +46,8 @@
 | 206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | Linked List|
 | 19 | [Remove the n-th node from the end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Linked List| 
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Linked List|
+| 387 |[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | String |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | BST |
 
 
 
