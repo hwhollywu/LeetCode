@@ -49,7 +49,7 @@
 | 387 |[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | String |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | BST |
 | 108/109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| BST + Array + Linked List|
-
+| 102/107| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | BST + BFS|
 
 
 
