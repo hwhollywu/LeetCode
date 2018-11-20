@@ -28,7 +28,6 @@ class Solution {
 
 
 
-
 class Solution {
     public TreeNode sortedListToBST(ListNode head) {
         if (head == null) return null;
