@@ -50,6 +50,8 @@
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | BST |
 | 108/109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| BST + Array + Linked List|
 | 102/107| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | BST + BFS|
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Linked List |
+| 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Linked List |
 
 
 
