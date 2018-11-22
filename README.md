@@ -52,6 +52,7 @@
 | 102/107| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | BST + BFS|
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Linked List |
 | 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Linked List |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | HashMap + Linked List |
 
 
 
