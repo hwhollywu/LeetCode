@@ -54,7 +54,7 @@
 | 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Linked List |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | HashMap + Linked List |
 | 679 | [24 Game](https://leetcode.com/problems/24-game/)| Backtracking |
-
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
