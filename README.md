@@ -55,6 +55,7 @@
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | HashMap + Linked List |
 | 679 | [24 Game](https://leetcode.com/problems/24-game/)| Backtracking |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming |
+| 198/213/337 | [House Robber](https://leetcode.com/problems/house-robber/) | Dynamic Programming |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
