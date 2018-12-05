@@ -56,6 +56,7 @@
 | 679 | [24 Game](https://leetcode.com/problems/24-game/)| Backtracking |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming |
 | 198/213/337 | [House Robber](https://leetcode.com/problems/house-robber/) | Dynamic Programming |
+| 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | Use the Fisher-Yates algorithm - O(n) |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
