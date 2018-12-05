@@ -57,6 +57,8 @@
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming |
 | 198/213/337 | [House Robber](https://leetcode.com/problems/house-robber/) | Dynamic Programming |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | Use the Fisher-Yates algorithm - O(n) |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Design data structure| 
+
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
