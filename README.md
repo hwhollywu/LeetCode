@@ -58,7 +58,8 @@
 | 198/213/337 | [House Robber](https://leetcode.com/problems/house-robber/) | Dynamic Programming |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | Use the Fisher-Yates algorithm - O(n) |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Design data structure| 
-
+| 716 | [Max Stack](https://leetcode.com/problems/max-stack/) | data structure (treemap, doubly linked list)|
+| 204 | [Count Prime](https://leetcode.com/problems/count-primes/description/) | Math |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
