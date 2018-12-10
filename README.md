@@ -60,6 +60,7 @@
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Design data structure| 
 | 716 | [Max Stack](https://leetcode.com/problems/max-stack/) | data structure (treemap, doubly linked list)|
 | 204 | [Count Prime](https://leetcode.com/problems/count-primes/description/) | Math |
+| 12/13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Math, String |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
