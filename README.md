@@ -62,7 +62,8 @@
 | 204 | [Count Prime](https://leetcode.com/problems/count-primes/description/) | Math |
 | 12/13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Math, String |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | String |
-| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | String |
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | String 
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | String |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
