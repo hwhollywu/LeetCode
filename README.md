@@ -64,6 +64,7 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | String |
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | String 
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | String |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | String |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
