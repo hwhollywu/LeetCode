@@ -65,6 +65,9 @@
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | String 
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | String |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | String |
+| 190.191.461 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Bits |
+| 118/119 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Arrays + Dynamic Programming | 
+
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
