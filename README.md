@@ -68,7 +68,7 @@
 | 190.191.461 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Bits |
 | 118/119 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Arrays + Dynamic Programming |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | DFS + BFS |
-
+| 15 | [3 Sum](https://leetcode.com/problems/3sum/) | Arrays|
 
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
