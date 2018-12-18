@@ -69,6 +69,7 @@
 | 118/119 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Arrays + Dynamic Programming |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | DFS + BFS |
 | 15 | [3 Sum](https://leetcode.com/problems/3sum/) | Arrays|
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | DP |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | String + DP |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
