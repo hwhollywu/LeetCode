@@ -73,6 +73,7 @@
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | String + DP |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | BFS + DP |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/) | BFS |
+| 695| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) | DFS |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
