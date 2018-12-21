@@ -72,6 +72,7 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | DP |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | String + DP |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | BFS + DP |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/) | BFS |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
