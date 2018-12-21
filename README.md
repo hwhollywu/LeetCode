@@ -74,6 +74,8 @@
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | BFS + DP |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/) | BFS |
 | 695| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) | DFS |
+| 547| [Friend Circles](https://leetcode.com/problems/friend-circles/) | DFS |
+| 130 |[Surrounding Regions](https://leetcode.com/problems/surrounded-regions/) | DFS |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
