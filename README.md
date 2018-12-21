@@ -71,6 +71,7 @@
 | 15 | [3 Sum](https://leetcode.com/problems/3sum/) | Arrays|
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | DP |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | String + DP |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | BFS + DP |
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
