@@ -51,7 +51,33 @@ Class Node {
 }
 
 
-// 表示可以经过某个位置，求解从 (0, 0) 位置到 (tr, tc) 位置的最短路径长度。
+
+/**
+ * Return the length of the shortest path between root and target node.
+ */
+int BFS(Node root, Node target) {
+    Queue<Node> queue;  // store all nodes which are waiting to be processed
+    int step = 0;       // number of steps neeeded from root to current node
+    // initialize
+    add root to queue;
+    // BFS
+    while (queue is not empty) {
+        step = step + 1;
+        // iterate the nodes which are already in the queue
+        int size = queue.size();
+        for (int i = 0; i < size; ++i) {
+            Node cur = the first node in queue;
+            return step if cur is target;
+            for (Node next : the neighbors of cur) {
+                add next to queue;
+            }
+            remove the first node from queue;
+        }
+    }
+    return -1;          // there is no path from root to target
+}
+
+// BFS: 表示可以经过某个位置，求解从 (0, 0) 位置到 (tr, tc) 位置的最短路径长度。
 
 public int minPathLength(int[][] grids, int tr, int tc) {
     final int[][] direction = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -79,4 +105,36 @@ public int minPathLength(int[][] grids, int tr, int tc) {
         }
     }
     return -1;
+}
+
+
+// adding a hashset to make sure never visit a node twice
+/**
+ * Return the length of the shortest path between root and target node.
+ */
+int BFS(Node root, Node target) {
+    Queue<Node> queue;  // store all nodes which are waiting to be processed
+    Set<Node> used;     // store all the used nodes
+    int step = 0;       // number of steps neeeded from root to current node
+    // initialize
+    add root to queue;
+    add root to used;
+    // BFS
+    while (queue is not empty) {
+        step = step + 1;
+        // iterate the nodes which are already in the queue
+        int size = queue.size();
+        for (int i = 0; i < size; ++i) {
+            Node cur = the first node in queue;
+            return step if cur is target;
+            for (Node next : the neighbors of cur) {
+                if (next is not in used) {
+                    add next to queue;
+                    add next to used;
+                }
+            }
+            remove the first node from queue;
+        }
+    }
+    return -1;          // there is no path from root to target
 }
