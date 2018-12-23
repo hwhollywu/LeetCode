@@ -76,4 +76,31 @@ public int numSquares(int n) {
 }
 
 
+public class Solution {
+    public int numSquares(int n) {
+        int[] record = new int[n+1];
+        for(int i=0;i<=n;i++){
+            record[i] = i;
+            for(int j=1;j*j<=i;j++){
+                record[i] = Math.min(record[i-j*j]+1,record[i]);
+            }
+        }
+        return record[n];
+    }
+}
 
+
+class Solution {
+    public int numSquares(int n) {
+        int[] dp = new int[n+1]; //0-n
+        dp[0] = 0;
+        for (int i = 1; i<= n; i++){
+            // set min
+            dp[i] = i;
+            for (int k = 1; k * k <= i; k++){
+                dp[i] = Math.min(dp[i-k*k]+1, dp[i]);
+            }
+        }
+        return dp[n];
+    }
+}
