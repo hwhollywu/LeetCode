@@ -57,7 +57,7 @@ class Solution {
         // traversal
         for (int r = 0; r < nrow; r++){
             for (int c = 0; c < ncol; c++){
-                // only do dfs for islands
+                // only do bfs for islands
                 if (grid[r][c] == '1') {
                     res++;
                     Queue<Integer> q = new LinkedList();
