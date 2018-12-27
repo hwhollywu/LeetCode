@@ -79,6 +79,9 @@
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | DFS |
 | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | BFS for shortest path| 
 | 168/171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Math |
+| 729 | [Daily Temporatures](https://leetcode.com/problems/daily-temperatures/) | Stack, Array | 
+
+
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
