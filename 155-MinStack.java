@@ -19,11 +19,11 @@ class MinStack {
             stack.push(min);
             min = x;
         }
-        stack.push(x); // push twice if pushing min
+        stack.push(x); // replace min if pushing min
     }
     
     public void pop() {
-        if(stack.pop() == min) min=stack.pop(); // pop twice if popping mix
+        if(stack.pop() == min) min=stack.pop(); // replace min if popping min
      
     }
     

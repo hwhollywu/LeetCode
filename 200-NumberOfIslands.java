@@ -181,3 +181,51 @@ class Solution {
     return uf.getCount();
   }
 }
+
+
+// Dec 23
+class Solution {
+    public int numIslands(char[][] grid) {
+        // base
+        int[][] directions = {{1,0},{-1,0},{0,1},{0,-1}};
+        int nrow = grid.length;
+        if (nrow == 0) return 0;
+        int ncol = grid[0].length;
+        int res = 0;
+        
+        for (int r = 0; r < nrow; r ++){
+            for (int c = 0; c < ncol; c++){
+                if (grid[r][c] == '1'){
+                    res++;
+                    // System.out.println("r " + r + "c "+c);
+                    // print out 2d array
+                    // System.out.println(Arrays.deepToString(grid));
+                    // start a bfs 
+                    Queue<Integer> q = new LinkedList();
+                    q.add(r * ncol + c);
+                    grid[r][c] = '0'; // mark as visited
+                    while (!q.isEmpty()){
+                        int node = q.poll();
+                        int noder = node / ncol;
+                        int nodec = node % ncol;
+                        for (int[] d: directions){
+                            int nr = noder + d[0];
+                            int nc = nodec + d[1];
+                            if (nr < 0 || nr >= nrow || nc < 0 || nc >= ncol || grid[nr][nc] == '0'){
+                                continue;
+                            }
+                            q.add(nr * ncol + nc);
+                            grid[nr][nc] = '0';
+                            
+                        }
+                    }
+                }
+            }
+        }
+        return res;
+    }
+    
+}
+
+
+
