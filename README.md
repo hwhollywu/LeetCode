@@ -85,6 +85,8 @@
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | String |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | DFS, Graph | 
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | DFS + DP | 
+| 94/144/145 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | BT + DFS |
+
 
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
