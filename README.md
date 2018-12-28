@@ -84,7 +84,7 @@
 | 168/171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Math |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | String |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | DFS, Graph | 
-
+| 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | DFS + DP | 
 
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
