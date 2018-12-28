@@ -73,6 +73,7 @@
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | String + DP |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | BFS + DP |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/) | BFS |
+| 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)| BFS + Backtracking |
 | 695| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) | DFS |
 | 547| [Friend Circles](https://leetcode.com/problems/friend-circles/) | DFS |
 | 130 |[Surrounding Regions](https://leetcode.com/problems/surrounded-regions/) | DFS |
@@ -82,6 +83,8 @@
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack | 
 | 168/171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Math |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | String |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | DFS, Graph | 
+
 
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
