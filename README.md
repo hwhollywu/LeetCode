@@ -3,7 +3,7 @@
 
 [Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-37/897
+129/957
 
 | #  | Title/Link  | Description  |
 | -- |:---------|:---------| 
@@ -88,8 +88,8 @@
 | 94/144/145 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | BT + DFS |
 | 232/225 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Stack/Queue |
 | 394 | [Decode Strings](https://leetcode.com/problems/decode-string/) | DFS, String | 
-
-
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | DFS | 
+| 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | DFS/BFS | 01 Matrix
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
