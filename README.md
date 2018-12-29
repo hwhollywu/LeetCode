@@ -90,7 +90,7 @@
 | 394 | [Decode Strings](https://leetcode.com/problems/decode-string/) | DFS, String | 
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | DFS | 
 | 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | BFS, DP | 01 Matrix
-
+| 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | DFS |
 
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
