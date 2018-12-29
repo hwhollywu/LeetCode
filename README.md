@@ -89,7 +89,9 @@
 | 232/225 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Stack/Queue |
 | 394 | [Decode Strings](https://leetcode.com/problems/decode-string/) | DFS, String | 
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | DFS | 
-| 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | DFS/BFS | 01 Matrix
+| 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | BFS, DP | 01 Matrix
+
+
 
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
 
