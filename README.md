@@ -1,7 +1,9 @@
 # LeetCode
 ## in Java
 
-[Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Big O Cheatsheet](http://bigocheatsheet.com/)
+
 
 129/957
 
@@ -91,9 +93,10 @@
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | DFS | 
 | 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | BFS, DP | 01 Matrix
 | 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | DFS |
+| 54/59 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Array | 
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | String | 
 
 
-* [Big O Cheatsheet](http://bigocheatsheet.com/)
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
