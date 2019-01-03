@@ -100,7 +100,10 @@
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Trie | 
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Backtracking |
 | 46/47 | [Permutation](https://leetcode.com/problems/permutations/description/) | Backtracking | 
-
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Array | 
+| 77 | [Combinations](https://leetcode.com/problems/combinations/description/) | Backtracking | 
+| 39/40/216 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | Backtracking | 
+| 78/90 | [Subsets](https://leetcode.com/problems/subsets/description/) | Backtracking | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
