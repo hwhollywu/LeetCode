@@ -99,7 +99,7 @@
 | 79/212 | [Word Search](https://leetcode.com/problems/word-search/description/) | Array, Backtracking | 
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Trie | 
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Backtracking |
-
+| 46/47 | [Permutation](https://leetcode.com/problems/permutations/description/) | Backtracking | 
 
 
 * Greedy Algorithm: 
