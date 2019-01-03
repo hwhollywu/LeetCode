@@ -98,6 +98,8 @@
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/) |  String, Backtracking | 
 | 79/212 | [Word Search](https://leetcode.com/problems/word-search/description/) | Array, Backtracking | 
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Trie | 
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Backtracking |
+
 
 
 * Greedy Algorithm: 
