@@ -57,3 +57,28 @@ Output: 1
 Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cut.
 
 */
+
+class Solution {
+    public int minCut(String s) {
+        char[] chars = s.toCharArray();
+        int n = s.length();
+        int[] cut = new int[n]; // store min cut for s
+        boolean[][] palin = new boolean[n][n]; // if palindrome for j,i
+        
+        for(int i = 0; i < n ; i++){
+            int min = i;
+            for (int j = 0; j <= i; j++){
+                // check both outlayer and innerlayer for palindrome
+                if (chars[j] == chars[i] && (j+1 > i-1 || palin[j+1][i-1] )){
+                    // only update if it's palindrome
+                    palin[j][i] = true;
+                    min = j == 0? 0 : Math.min(cut[j-1]+1, min);
+                } 
+            }
+            cut[i] = min;
+        }
+        
+        // return min of s, stored in cut
+        return cut[n-1]; 
+    }
+}
