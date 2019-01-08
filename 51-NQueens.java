@@ -98,5 +98,47 @@ Explanation: There are two distinct solutions to the 4-queens puzzle as shown be
 // backtracking : Time  O(N!) Space O(N)
 
 
-
+class Solution {
+    int res = 0;
+    
+    public int totalNQueens(int n) {
+        char[][] board = new char[n][n];
+        // initialize board
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < n; j++){
+                board[i][j] = '.';
+            }
+        }
+        backtracking(board, 0);
+        return res;
+    }
+    
+     private void backtracking(char[][] board, int col){
+        // base case, return one solution
+        if (col == board.length){
+            res++;
+            return;
+        }
+        // recursive case
+        for (int i = 0; i < board.length; i++){
+            if(valid(board, i, col)){
+                board[i][col] = 'Q';
+                backtracking(board, col+1);
+                board[i][col] = '.';
+            }
+        }
+    }
+    
+        private boolean valid(char[][] board, int r, int c){
+        for (int i = 0; i < board.length; i++){
+            for (int j = 0; j < c; j++){ //??? only for built columns
+                // for each existing Q, check left, right diagnals, check row
+                if (board[i][j] == 'Q' && (r + j == c + i || i + j == r + c || r == i)) return false;
+            }
+        }
+        return true;
+    }
+    
+    
+}
 
