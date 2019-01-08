@@ -108,6 +108,8 @@
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |  Math | 
 | 336 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)| Hash Table, String |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) | Hash Table, Backtracking |  
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/)  | Backtracking | 
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | DP | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
