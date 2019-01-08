@@ -86,6 +86,36 @@ public class Solution {
 }
 
 
+// my own version 
+
+class Solution {
+    public int climbStairs(int n) {
+        int[][] q = {{1,1},{1,0}};
+        int[][] res = pow(q, n);
+        return res[0][0];
+    }
+    
+    private int[][] pow(int[][] m, int n){
+        int[][] c = {{1,0},{0,1}}; // initialize identity matrix
+        while (n > 0){
+            if ((n&1) ==1) c = multiply(c, m); // c = m, m^2, m^4 ... m^n
+            n >>= 1; // n -> n/2 -> .. -> 2 -> 1
+            m = multiply(m, m); // m = m^2
+        }
+        return c;
+    }
+    
+    private int[][] multiply(int[][] a, int [][] b){
+        int[][] c = new int[2][2];
+        c[0][0] = a[0][0]*b[0][0] + a[0][1]*b[1][0];
+        c[0][1] = a[0][0]*b[1][0] + a[0][1]*b[1][1];
+        c[1][0] = a[1][0]*b[0][0] + a[1][1]*b[1][0];
+        c[1][1] = a[1][0]*b[1][0] + a[1][1]*b[1][1];
+        return c;
+    }
+}
+
+
 // Approach 6: Fibonacci Formula O(logN),O(1)
 public class Solution {
     public int climbStairs(int n) {
@@ -94,3 +124,7 @@ public class Solution {
         return (int)(fibn/sqrt5);
     }
 }
+
+
+
+

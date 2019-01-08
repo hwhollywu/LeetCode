@@ -104,7 +104,10 @@
 | 77 | [Combinations](https://leetcode.com/problems/combinations/description/) | Backtracking | 
 | 39/40/216 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | Backtracking | 
 | 78/90 | [Subsets](https://leetcode.com/problems/subsets/description/) | Backtracking | 
-
+| 131/132 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| Backtracking / DP |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |  Math | 
+| 336 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)| Hash Table, String |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) | Hash Table, Backtracking |  
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
