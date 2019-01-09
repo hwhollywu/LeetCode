@@ -112,6 +112,8 @@
 | 64/62 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | DP | 
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) | Divide & Conquer | 
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | String | 
+| 683 | [K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | Array + BST | 
+
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
