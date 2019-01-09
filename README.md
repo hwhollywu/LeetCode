@@ -110,6 +110,8 @@
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) | Hash Table, Backtracking |  
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/)  | Backtracking | 
 | 64/62 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | DP | 
+| 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) | Divide & Conquer | 
+| 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | String | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
