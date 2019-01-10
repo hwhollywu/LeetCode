@@ -114,6 +114,8 @@
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | String | 
 | 683 | [K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | Array + BST | 
 | 681 | [Next Closest Time](https://leetcode.com/problems/next-closest-time/)| String | 
+| 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | Tree | 
+| 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | String| 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
