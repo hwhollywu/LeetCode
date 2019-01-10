@@ -39,7 +39,7 @@
 | 136/137/260 | [Single Number](https://leetcode.com/problems/single-number/description/) | Arrays |
 | 349/350 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | Arrays | 
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | Arrays | 
-| 282 | [Move Zeros](https://leetcode.com/problems/move-zeroes/description/) | Arrays |
+| 283 | [Move Zeros](https://leetcode.com/problems/move-zeroes/description/) | Arrays |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | 2D Array |
 | 48/396/788 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2D Array | 
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | String |
@@ -117,6 +117,8 @@
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | Tree | 
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | String| 
 | 883 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | String |
+| 475 | [Heaters](https://leetcode.com/problems/heaters/) | Binary Search | 
+
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
