@@ -113,7 +113,7 @@
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) | Divide & Conquer | 
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | String | 
 | 683 | [K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | Array + BST | 
-
+| 681 | [Next Closest Time](https://leetcode.com/problems/next-closest-time/)| String | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
