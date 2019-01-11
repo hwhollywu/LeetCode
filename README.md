@@ -118,6 +118,7 @@
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | String| 
 | 883 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | String |
 | 475 | [Heaters](https://leetcode.com/problems/heaters/) | Binary Search | 
+| 708 | [Insert into a Cyclic Sorted List](https://leetcode.com/problems/insert-into-a-cyclic-sorted-list/) | Linked List | 
 
 
 * Greedy Algorithm: 
