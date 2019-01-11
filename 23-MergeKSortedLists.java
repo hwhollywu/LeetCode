@@ -11,7 +11,31 @@
  * }
  */
 
-// PQ / Heap
+// Brute Force O(NlogN)
+
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        List<Integer> arr = new ArrayList();
+        // add every node to arr
+        for(ListNode l : lists){
+            while(l != null){
+                arr.add(l.val);
+                l = l.next;
+            }
+        }
+        Collections.sort(arr);
+        // form new linked list
+        ListNode pre = new ListNode(-1);
+        ListNode p = pre;
+        for(int i = 0; i < arr.size(); i++){
+            p.next = new ListNode(arr.get(i));
+            p = p.next;
+        }
+        return pre.next;
+    }
+}
+
+// PQ / Heap O(NlogK) N = #nodes, K = #lists
 
 class Solution {
     

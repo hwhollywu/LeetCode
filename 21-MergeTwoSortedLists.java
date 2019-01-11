@@ -13,28 +13,23 @@
  */
 
 
-// ITERATIVE 
+// ITERATIVE  Time & Space: O(n + m)
 
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
         ListNode t = dummy;
         while (l1!=null && l2!=null){
-            if (l1.val < l2.val){
+            if (l1.val <= l2.val){
                 t.next = l1;
-                t = l1;
                 l1 = l1.next;
             }else{
                 t.next = l2;
-                t = l2;
                 l2 = l2.next;
             }
+            t = t.next; 
         }
-        if (l1 != null){
-            t.next = l1;
-        }else if (l2 != null){
-            t.next = l2;
-        }
+        t.next = (l1 == null) ? l2 : l1;
         return dummy.next;
     }
 }
@@ -57,4 +52,32 @@ class Solution {
         
     }
 }
+
+
+// Brute Force
+
+class Solution {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        List<Integer> arr = new ArrayList();
+        // add each node into arr
+        while(l1 != null){
+            arr.add(l1.val);
+            l1 = l1.next;
+        }
+        while(l2 != null){
+            arr.add(l2.val);
+            l2 = l2.next;
+        }
+        Collections.sort(arr); //O(NlogN)
+        // form new linked list
+        ListNode pre = new ListNode(-1);
+        ListNode p = pre;
+        for(int i = 0; i < arr.size(); i++){
+            p.next = new ListNode(arr.get(i));
+            p = p.next;
+        }
+        return pre.next;
+    }
+}
+
 
