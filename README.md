@@ -39,6 +39,7 @@
 | 136/137/260 | [Single Number](https://leetcode.com/problems/single-number/description/) | Arrays |
 | 349/350 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | Arrays | 
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | Arrays | 
+| 369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | Linked List |
 | 283 | [Move Zeros](https://leetcode.com/problems/move-zeroes/description/) | Arrays |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | 2D Array |
 | 48/396/788 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2D Array | 
