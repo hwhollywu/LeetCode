@@ -119,7 +119,9 @@
 | 883 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | String |
 | 475 | [Heaters](https://leetcode.com/problems/heaters/) | Binary Search | 
 | 708 | [Insert into a Cyclic Sorted List](https://leetcode.com/problems/insert-into-a-cyclic-sorted-list/) | Linked List | 
-
+| 399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | Union Find, Graph |
+| 684/685| [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/) | Union Find, DFS | 
+| 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | Tree | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
