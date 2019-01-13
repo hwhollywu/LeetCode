@@ -124,6 +124,7 @@
 | 684/685| [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/) | Union Find, DFS | 
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | Tree | 
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)| Tree | 
+| 55/45 | [Jump Game](https://leetcode.com/problems/jump-game/)  | Greedy, Array | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
