@@ -70,35 +70,42 @@ public int[] findRedundantConnection(int[][] edges) {
 }
 
 
-// Approach 2: DFS 
+// Approach 2: DFS  Time O(N^2), Space O(N)
 
 class Solution {
-    Set<Integer> seen = new HashSet();
-    int MAX_EDGE_VAL = 1000;
-
+    Set<Integer> set = new HashSet(); 
+    
     public int[] findRedundantConnection(int[][] edges) {
-        ArrayList<Integer>[] graph = new ArrayList[MAX_EDGE_VAL + 1];
-        for (int i = 0; i <= MAX_EDGE_VAL; i++) {
+        // initialize graph as an array of arraylist 
+        // for each node's neighbors
+        ArrayList<Integer>[] graph = new ArrayList[1000+1];
+        for(int i = 0; i <= 1000; i++){
             graph[i] = new ArrayList();
         }
-
-        for (int[] edge: edges) {
-            seen.clear();
-            if (!graph[edge[0]].isEmpty() && !graph[edge[1]].isEmpty() &&
-                    dfs(graph, edge[0], edge[1])) {
-                return edge;
+        
+        // for each edge, dfs two points (clear set)
+        for(int[] ed : edges){
+            set.clear();
+            if(!graph[ed[0]].isEmpty() && !graph[ed[1]].isEmpty() && dfs(graph, ed[0], ed[1])){
+                return ed;
             }
-            graph[edge[0]].add(edge[1]);
-            graph[edge[1]].add(edge[0]);
+        // add neighbors for each point
+            graph[ed[0]].add(ed[1]);
+            graph[ed[1]].add(ed[0]);
+            
         }
-        throw new AssertionError();
+        throw new AssertionError();  
     }
-    public boolean dfs(ArrayList<Integer>[] graph, int source, int target) {
-        if (!seen.contains(source)) {
-            seen.add(source);
-            if (source == target) return true;
-            for (int nei: graph[source]) {
-                if (dfs(graph, nei, target)) return true;
+    
+    // return true if the find an redundant edge
+    private boolean dfs(ArrayList<Integer>[] graph, int u, int v){
+        if(!set.contains(u)){
+            set.add(u);
+            if(u == v) return true;
+            // for each neighbor of source node
+            for(int nei : graph[u]){
+                // if neighbor is connect to target node
+                if(dfs(graph, nei, v)) return true;
             }
         }
         return false;
