@@ -66,6 +66,7 @@ class Solution {
 // 167. Two Sum II - Input array is sorted
 // instead of Hashmap, use two pointers point to start & end of the array
 // Runtime: -> 1ms
+// Time O(n), Space O(1)
 
 class Solution {
     public int[] twoSum(int[] numbers, int target) {

@@ -125,6 +125,7 @@
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | Tree | 
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)| Tree | 
 | 55/45 | [Jump Game](https://leetcode.com/problems/jump-game/)  | Greedy, Array | 
+| 729/731/732 | [My Calendar](https://leetcode.com/problems/my-calendar-i/) | Array | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
