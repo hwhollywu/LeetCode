@@ -27,6 +27,77 @@ Explanation: The given undirected graph will be like this:
 
 // class union find
 
+     class UnionFind {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        int find(int x){
+            if(!map.containsKey(x)) map.put(x, x);
+
+            if(map.get(x)==x) return x;
+            int par = find(map.get(x));
+            map.put(x, par);
+            return par;
+        }
+
+        boolean union(int x, int y){
+            int px = find(x);
+            int py = find(y);
+
+            if(px==py) return false;
+            map.put(px, py);
+            return true;
+        }        
+    }
+// ---------------------------------------------------
+    
+    static class DisjointSet {
+        
+        private int[] parent;
+        private byte[] rank;
+        
+        public DisjointSet(int n) {
+            if (n < 0) throw new IllegalArgumentException();
+            parent = new int[n];
+            rank = new byte[n];
+        }
+        
+        public int find(int x) {
+            if (parent[x] == 0) return x;
+            return parent[x] = find(parent[x]); // Path compression by halving.
+        }
+        
+        // Return false if x, y are connected.
+        public boolean union(int x, int y) {
+            int rootX = find(x);
+            int rootY = find(y);
+            if (rootX == rootY) return false;
+            
+            // Make root of smaller rank point to root of larger rank.
+            if (rank[rootX] < rank[rootY]) parent[rootX] = rootY;
+            else if (rank[rootX] > rank[rootY]) parent[rootY] = rootX;
+            else {
+                parent[rootX] = rootY;
+                rank[rootX]++;
+            }
+            
+            return true;
+        }
+    }
+
+
+    public int[] findRedundantConnection(int[][] edges) {
+        DisjointSet disjointSet = new DisjointSet(edges.length);
+        
+        for (int[] edge : edges) {
+            if (!disjointSet.union(edge[0] - 1, edge[1] - 1)) return edge;
+        }
+        
+        throw new IllegalArgumentException();
+    }
+
+
+// ---------------------------------------------------
+
 class UnionFind{
     private int[] id;
     UnionFind(int n){
@@ -111,6 +182,10 @@ class Solution {
         return false;
     }
 }
+
+
+
+
 
 // https://leetcode.com/problems/redundant-connection-ii
 
@@ -211,5 +286,58 @@ class OrbitResult {
     OrbitResult(int n, Set<Integer> s) {
         node = n;
         seen = s;
+    }
+}
+
+
+
+
+
+// Approach: Union Find
+
+class Solution {
+    public int[] findRedundantDirectedConnection(int[][] edges) {
+        // check if there is a node have 2 parents, store in can1 can2
+        int[] can1 = {-1, -1};
+        int[] can2 = {-1, -1};
+        int[] roots = new int[edges.length + 1];
+        for(int[] edge: edges){
+            int parent = edge[0];
+            int child = edge[1];
+            if(roots[child] == 0) roots[child] = parent;
+            else{
+                // the child already has a parent
+                can2 = new int[]{parent, child}; // newer link
+                can1 = new int[]{roots[child], child}; // older link
+                edge[1] = 0; // set current link invalid ??
+            }
+        }
+        // perform union find, if tree, return 2
+        for(int i = 0; i < edges.length; i++){
+            roots[i] = i;
+        }
+        
+        for(int[] edge:edges){
+            int parent = edge[0];
+            int child = edge[1];
+            if (child == 0) continue; // invalid link
+            if(find(roots, parent) == child){
+                // if no candicate = find a circle, return current edge
+                if(can1[0] == -1) return edge;
+                // else return 1 ???
+                else return can1;
+            }
+            roots[child] = parent; // union    
+        }
+        return can2;
+    }
+    
+    
+    private int find(int[] roots, int id){
+        while(id != roots[id]){
+            roots[id] = roots[roots[id]];
+            id = roots[id];
+        }
+        return id;
     }
 }
