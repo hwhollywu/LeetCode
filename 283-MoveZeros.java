@@ -29,3 +29,23 @@ class Solution {
         }
     }
 }
+
+
+class Solution {
+    public void moveZeroes(int[] nums) {
+
+        int nonzeros = 0;
+        // two pointers, one point to i's, the other point 
+        // to non-zero nums and copy element from i
+        for (int i = 0; i < nums.length; i++){
+            // if(nonzeros > nums.length - zeros) break;
+            if (nums[i] != 0){
+                nums[nonzeros] = nums[i];
+                nonzeros++;
+            }
+        }
+        for(int i = nonzeros; i < nums.length; i++){
+            nums[i] = 0;
+        }
+    }
+}
