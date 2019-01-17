@@ -82,7 +82,7 @@
 | 130 |[Surrounding Regions](https://leetcode.com/problems/surrounded-regions/) | DFS |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | DFS |
 | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | BFS for shortest path| 
-| 729 | [Daily Temporatures](https://leetcode.com/problems/daily-temperatures/) | Stack, Array | 
+| 739 | [Daily Temporatures](https://leetcode.com/problems/daily-temperatures/) | Stack, Array | 
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack | 
 | 168/171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Math |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | String |
