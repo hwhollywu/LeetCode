@@ -127,6 +127,9 @@
 | 55/45 | [Jump Game](https://leetcode.com/problems/jump-game/)  | Greedy, Array | 
 | 729/731/732 | [My Calendar](https://leetcode.com/problems/my-calendar-i/) | Array | 
 | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) | Design |
+| 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | Design, Stack | 
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Design, Stack, Tree | 
+
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
