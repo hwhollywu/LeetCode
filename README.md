@@ -129,7 +129,7 @@
 | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) | Design |
 | 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | Design, Stack | 
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Design, Stack, Tree | 
-
+| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | HashMap | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
