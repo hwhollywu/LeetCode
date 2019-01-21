@@ -15,6 +15,7 @@ that punctuation is ignored (even if adjacent to words, such as "ball,"),
 and that "hit" isn't the answer even though it occurs more because it is banned.
 */
 
+// Time Complexity: O(P + B)  P = paragraph, B = banned 
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         HashSet<String> set = new HashSet();
@@ -35,6 +36,13 @@ class Solution {
                     map.put(word, map.getOrDefault(word, 0) + 1);
                 }
             }
+            // corner case when there's only one word
+            if ( i == arr.length - 1){
+                String word = paragraph.substring(start).toLowerCase();
+                if(!set.contains(word) && !word.isEmpty()){
+                    map.put(word, map.getOrDefault(word, 0) + 1);
+                }
+            }
         }
         // get the word with highest frequency
         Map.Entry<String, Integer> max = null;
@@ -46,3 +54,17 @@ class Solution {
         return max.getKey();
     }
 }
+
+
+
+    public String mostCommonWord(String paragraph, String[] banned) {
+        String[] words = paragraph.toLowerCase().split("[ !?',;.]+");
+        HashMap<String, Integer> map = new HashMap<>();
+        for(String word : words) map.put(word, map.getOrDefault(word, 0) + 1);
+        for(String word : banned) if(map.containsKey(word)) map.remove(word);
+        String res = null;
+        for(String word : map.keySet())
+            if(res == null || map.get(word) > map.get(res))
+                res = word;
+        return res;
+    }
