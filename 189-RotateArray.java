@@ -3,7 +3,7 @@
 
 
 // 建立一个temp array,再循环一遍把原来的array替换掉
-// space O(n)
+// time o(n) space O(n)
 
 class Solution {
     public void rotate(int[] nums, int k) {
