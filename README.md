@@ -132,7 +132,8 @@
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | HashMap | 
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Array | 
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | Bit | 
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Array, HashMap |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Array, HashMap | 480 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | Array | 
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Array | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
