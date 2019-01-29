@@ -207,3 +207,20 @@ class Solution {
         return l; // l>=r
     }
 }
+
+
+162-FindPeakElement
+
+class Solution {
+    public int findPeakElement(int[] nums) {
+        int l = 0;
+        int r = nums.length - 1;
+        while(l < r){
+            int mid = l + (r - l) / 2;
+            if (nums[mid] > nums[mid + 1]) r = mid; // inclusive
+            else l = mid + 1;
+        }
+        // when l > r
+        return l;
+    }
+}

@@ -137,6 +137,7 @@
 | 900 | [RLE Iterator](https://leetcode.com/problems/rle-iterator/) | Array, Design | 
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Array, Heap |
 | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | BST| 
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Array | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
