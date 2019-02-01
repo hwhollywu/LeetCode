@@ -132,12 +132,14 @@
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | HashMap | 
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Array | 
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | Bit | 
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Array, HashMap | 480 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | Array | 
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Array, HashMap | 
+| 480 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | Array | 
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Array | 
 | 900 | [RLE Iterator](https://leetcode.com/problems/rle-iterator/) | Array, Design | 
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Array, Heap |
 | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | BST| 
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Array | 
+| 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | Array, HashMap | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
