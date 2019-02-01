@@ -140,6 +140,7 @@
 | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | BST| 
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Array | 
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | Array, HashMap | 
+| 224/227/772/770 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/)| Math, Stack |
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
