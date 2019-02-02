@@ -3,9 +3,9 @@
 
 * [Markdown Tutorial](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Big O Cheatsheet](http://bigocheatsheet.com/)
+* [Complexity of Java Collections](https://gist.github.com/psayre23/c30a821239f4818b0709)
 
-
-129/957
+xxx/957
 
 | #  | Title/Link  | Description  |
 | -- |:---------|:---------| 
@@ -133,7 +133,7 @@
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Array | 
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | Bit | 
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Array, HashMap | 
-| 480 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | Array | 
+| 239/480 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | Array, Heap, Deque | 
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Array | 
 | 900 | [RLE Iterator](https://leetcode.com/problems/rle-iterator/) | Array, Design | 
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Array, Heap |
