@@ -62,53 +62,121 @@ public class Codec {
 // codec.deserialize(codec.serialize(root));
 
 
-// Approach BFS
+// Approach BFS (faster)
 
 public class Codec {
+
+    // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
-        if (root == null) return "";
+        // base
+        if(root == null) return "";
         Queue<TreeNode> q = new LinkedList<>();
-        StringBuilder res = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         q.add(root);
-        while (!q.isEmpty()) {
+        while(!q.isEmpty()){
             TreeNode node = q.poll();
-            if (node == null) {
-                res.append("n ");
+            //base case
+            if(node == null){
+                sb.append("null,");
                 continue;
             }
-            res.append(node.val + " ");
+            sb.append(node.val + ",");
             q.add(node.left);
             q.add(node.right);
         }
-        return res.toString();
+        return sb.toString();
     }
+    
 
+    // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        if (data == "") return null;
+        // base 
+        if(data == "") return null;
+        // parse into array
+        String[] arr = data.split(",");
+        // use a queue to store data
         Queue<TreeNode> q = new LinkedList<>();
-        String[] values = data.split(" ");
-        TreeNode root = new TreeNode(Integer.parseInt(values[0]));
+        TreeNode root = new TreeNode(Integer.valueOf(arr[0]));
         q.add(root);
-        for (int i = 1; i < values.length; i++) {
+        // traverse the arr and setup treenode 
+        for(int i = 1; i < arr.length; i++){
             TreeNode parent = q.poll();
-            if (!values[i].equals("n")) {
-                TreeNode left = new TreeNode(Integer.parseInt(values[i]));
+            if(!arr[i].equals("null")){ // node not null
+                TreeNode left = new TreeNode(Integer.valueOf(arr[i]));
                 parent.left = left;
                 q.add(left);
             }
-            if (!values[++i].equals("n")) {
-                TreeNode right = new TreeNode(Integer.parseInt(values[i]));
+            // BFS - right = next node in i+1
+            i += 1;
+            if(!arr[i].equals("null")){ 
+                TreeNode right = new TreeNode(Integer.valueOf(arr[i]));
                 parent.right = right;
                 q.add(right);
             }
         }
         return root;
     }
-}
 
+}
 
 449. Serialize and Deserialize BST
 
 // https://leetcode.com/problems/serialize-and-deserialize-bst/
 
 
+
+
+428. Serialize and Deserialize N-ary Tree
+// https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+
+class Codec {
+     public static String spliter=",";
+
+    // Encodes a tree to a single string.
+    public String serialize(Node root) {
+        return serializeRec(root, "");
+    }
+    
+    public String serializeRec(Node root, String s){
+        // base case
+        if(root == null) s += "null,";
+        else{
+            s += root.val + spliter;
+            s += root.children.size() + spliter;
+            for(Node child : root.children){
+                s = serializeRec(child, s);
+            }
+        }
+        return s;
+    }
+
+
+    // Decodes your encoded data to tree.
+    public Node deserialize(String data) {
+        if(data.equals("")) return null;
+        String[] arr = data.split(spliter);
+        //System.out.println(Arrays.toString(arr));
+        List<String> list = new LinkedList<String>(Arrays.asList(arr));
+        return deserializeRec(list);
+    }
+    
+    public Node deserializeRec(List<String> l){
+        //base case - null node
+        if(l.get(0).equals("null")){
+            l.remove(0);
+            return null;
+        }
+        // construct tree node
+        Node root = new Node(Integer.valueOf(l.get(0)), new LinkedList<Node>());
+        l.remove(0);
+        int childsize = Integer.valueOf(l.get(0));
+        l.remove(0);
+        if(childsize != 0){
+            for(int i = 0; i < childsize; i++){
+                Node child = deserializeRec(l);
+                root.children.add(child);
+            }
+        }
+        return root;
+    }
+}
