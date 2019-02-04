@@ -31,7 +31,6 @@ xxx/957
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)| sorting algorithms |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)| sorting |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Arrays and Strings, Stack|
-| --  |---------|Arrays| 
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Arrays, two pointers|
 | 121/122 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Arrays|
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Arrays| 
@@ -141,7 +140,10 @@ xxx/957
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Array | 
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | Array, HashMap | 
 | 224/227/772/770 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/)| Math, Stack |
-| 297/428/449 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Tree, Design | 
+| 297/428/449 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Tree, BFS, DFS | 
+| 139/140 |  [Word Break](https://leetcode.com/problems/word-break/solution/) | Backtracking, BFS, DP | 
+| 74/240 |  [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Array, Binary Search | 
+
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
