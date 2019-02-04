@@ -141,6 +141,7 @@ xxx/957
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Array | 
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | Array, HashMap | 
 | 224/227/772/770 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/)| Math, Stack |
+| 297/428/449 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Tree, Design | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
