@@ -143,7 +143,7 @@ xxx/957
 | 297/428/449 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Tree, BFS, DFS | 
 | 139/140 |  [Word Break](https://leetcode.com/problems/word-break/solution/) | Backtracking, BFS, DP | 
 | 74/240 |  [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Array, Binary Search | 
-
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | HashSet | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
