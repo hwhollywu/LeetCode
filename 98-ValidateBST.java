@@ -39,6 +39,7 @@ public class Solution {
 }
 
 // Approach : Iterative
+// Time O(N), Space O(N)
 
 public boolean isValidBST(TreeNode root) {
    if (root == null) return true;
@@ -55,4 +56,44 @@ public boolean isValidBST(TreeNode root) {
       root = root.right;
    }
    return true;
+}
+
+
+class Solution {
+    public boolean isValidBST(TreeNode root) {
+        if(root == null) return true; // base
+        // DFS, store nodes and upper/lower limits for comparison
+        LinkedList<TreeNode> stack = new LinkedList();
+        LinkedList<Integer> upperlimits = new LinkedList();
+        LinkedList<Integer> lowerlimits = new LinkedList();
+        stack.add(root);
+        upperlimits.add(null);
+        lowerlimits.add(null);
+        
+        while(!stack.isEmpty()){
+            TreeNode node = stack.poll();
+            Integer upper = upperlimits.poll();
+            Integer lower = lowerlimits.poll();
+            // check right
+            if(node.right != null){
+                if (node.right.val > node.val){
+                    if (upper != null && upper <= node.right.val) return false;
+                    stack.add(node.right);
+                    upperlimits.add(upper);
+                    lowerlimits.add(node.val);
+                } else return false; // right smaller than current
+            }
+            // check left
+            if(node.left != null){
+                if(node.left.val < node.val){
+                    if(lower != null && lower >= node.left.val) return false;
+                    stack.add(node.left);
+                    upperlimits.add(node.val);
+                    lowerlimits.add(lower);
+                }else return false;
+            }        
+        }
+        return true;
+    }
+    
 }
