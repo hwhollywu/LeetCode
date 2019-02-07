@@ -144,6 +144,8 @@ xxx/957
 | 139/140 |  [Word Break](https://leetcode.com/problems/word-break/solution/) | Backtracking, BFS, DP | 
 | 74/240 |  [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Array, Binary Search | 
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | HashSet | 
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 2D Array |
+
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
