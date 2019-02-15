@@ -146,6 +146,9 @@ xxx/957
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | HashSet | 
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 2D Array |
 | 235/236 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | BST | 
+| 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | Linked List | 
+
+
 
 
 * Greedy Algorithm: 
