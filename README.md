@@ -147,9 +147,7 @@ xxx/957
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 2D Array |
 | 235/236 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | BST | 
 | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | Linked List | 
-
-
-
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Array, Greedy | 
 
 * Greedy Algorithm: 
 builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit.
