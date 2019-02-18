@@ -43,3 +43,16 @@ class Solution {
  * Solution obj = new Solution(head);
  * int param_1 = obj.getRandom();
  */
+
+
+public ListNode deepclone(ListNode head){
+    ListNode node = head;
+    ListNode newhead = new ListNode(0);
+    ListNode node2 = newhead;
+    while(node != null){
+        ListNode newNode = new Node(node.val);
+        node2.next = newNode;
+        node2 = node2.next;
+    }
+    return newhead.next;
+}

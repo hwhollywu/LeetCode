@@ -35,4 +35,36 @@ class Solution {
     }
 }
 
-// 
+// Sorting  Time O(n),  n = result time Space O(1)  // O(26) 
+
+
+class Solution {
+    public int leastInterval(char[] tasks, int n) {
+        // save chars into map
+        int[] map = new int[26];
+        for(char c :tasks)
+            map[c - 'A']++;
+        // add number into ordered queue
+        PriorityQueue<Integer> pq = new PriorityQueue<>(26, Collections.reverseOrder()); // descending order 
+        for (int i : map){
+            if (i > 0) pq.add(i);
+        }
+        int res = 0;
+        while(!pq.isEmpty()){
+            int i = 0;
+            // store non-zero items 
+            List<Integer> temp = new ArrayList<>();
+            while(i <= n){
+                if(!pq.isEmpty()){
+                    if(pq.peek() > 1) temp.add(pq.poll() - 1);
+                    else pq.poll(); // idle
+                }
+                res++;
+                if (pq.isEmpty() && temp.size() == 0) break;
+                i++;
+            }
+            for(int l : temp) pq.add(l);
+        }
+        return res;
+    }
+}
